@@ -1,7 +1,5 @@
 A simple Quiz Application using HTML , CSS and JavaScript.
 
-To create this program (Quiz Application with Timer). First, you need to create three Files one HTML File, CSS File and JavaScript file.
-
 The logic used in every file is described as:
 
 1. Quiz HTML Structure
