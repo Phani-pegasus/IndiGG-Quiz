@@ -1,0 +1,87 @@
+body {
+  background-image: url('C:\\VSCODE\\IndiGG assignment\\webpage.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+.quiz-question {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+.buttons-wrapper {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button[type="button"] {
+  background-color: #007BFF;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="button"]:hover {
+  background-color: #0056b3;
+}
+
+input[type="radio"]:hover {
+  transform: scale(1.1);
+}
+
+input[type="radio"]:checked + label {
+  font-weight: bold;
+}
+
+.timer {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.quiz-result {
+  color: #ffffff; 
+  text-align: left; 
+  position: absolute; 
+  top: 40%; 
+  left: 50%; 
+  transform: translate(-50%, 0);
+}
+
+
+#restart-button {
+  background-color: #007BFF; 
+  color: #ffffff; 
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#restart-button:hover {
+  background-color: #0056b3; 
+}
+
+

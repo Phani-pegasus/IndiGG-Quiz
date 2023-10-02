@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Page</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>General Quiz</h1>
+
+  <form id="quiz-form">
+    <div class="quiz-question">
+      <p id="question-text"></p>
+      <ul id="answer-options">
+      </ul>
+    </div>
+
+    <div class="buttons-wrapper">
+      <button type="button" id="next-button" style="display: none;">Next</button>
+      <button type="button" id="submit-button" style="display: none;">Submit</button>
+      <p id="timer" class="timer"></p> 
+    </div>
+  </form>
+
+  <div class="quiz-result" id="quiz-result" style="display: none;"></div>
+
+  <script src="quiz.js"></script>
+</body>
+</html>
